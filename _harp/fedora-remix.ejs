@@ -1,0 +1,111 @@
+<div class="container mt-3">
+    <div>
+        <h2>Fedora Remix</h2>
+
+        <div>
+            <hr class="my-4" />
+        </div>
+
+        <h4>Purpose</h4>
+        <p>
+            This project is a <a href="https://fedoraproject.org/wiki/Remix" target="_blank">Fedora Remix</a> and aims
+            to offer a complete system for multipurpose usage with localization support.
+            You can build a live image and try the software, and then install it in your PC if you want.
+        </p>
+        Other goals of this remix are:
+        <ul>
+            <li>common extra-repos</li>
+            <li>multimedia apps</li>
+            <li>office automation support (printers and scanners)</li>
+            <li>and more...</li>
+        </ul>
+
+        <div class="alert alert-info" role="alert">
+            <h5 class="alert-heading">Why Fedora?</h5>
+            <p>
+                Fedora is a feature-rich operating system which offers a complete suite of sofware for many purposes.
+                It is flexible enough to get a custom version by using the installer features
+                (<a href="https://en.wikipedia.org/wiki/Anaconda_(installer)" target="_blank">see here for more details</a>).
+                The build process can be described through Kickstart files and can be modified to get new variants.
+            </p>
+        </div>
+    </div>
+
+    <div>
+        <hr class="my-4" />
+    </div>
+
+    <div>
+        <h4>Functional layers</h4>
+        <p>
+            The remix is based on layers, following a matrioska approach. Each layer is built on top of another, using
+            the <a href="https://pykickstart.readthedocs.io/en/latest/kickstart-docs.html#include" target="_blank">&percnt;include</a>
+            command in kickstart files. Current layers (ordered by level) are:
+            <table class="table table-striped table-bordered">
+                <thead class="thead">
+                  <tr>
+                    <th scope="col">Layer</th>
+                    <th scope="col">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">base</th>
+                    <td>Common system settings (like fonts and language) and basic drivers/libraries</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">desktop</th>
+                    <td>Desktop environment (like KDE or GNOME) with multimedia support and basic tools (like editor and file manager)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">workstation</th>
+                    <td>Workstation with office suite and support for printers/scanners</td>
+                  </tr>
+                </tbody>
+              </table>
+        </p>
+        <p>
+            Localization is treated as an addon which can be added to each layer.
+        </p>
+    </div>
+
+    <div>
+        <hr class="my-4" />
+    </div>
+
+    <div>
+        <h4>Editions</h4>
+        <p>
+            One of the main goals of the project is to get a working system for most people, without further effort.
+            A system for common users and common situations like home and office.
+            Linux offers different environments, with different focus like simplicity or flexibility.
+            Users are different and have different technical skills (from basic to advanced).
+            So different editions are supported, to fit common scenarios: they can vary during time.
+            The following are examples:
+        </p>
+        <dl class="row">
+            <dt class="col-sm-3">GNOME - simple and elegant</dt>
+            <dd class="col-sm-9">
+                The default choice of Fedora Linux, designed to be easy to use:
+                <ul>
+                    <li>Software - tool for installing apps and updates</li>
+                    <li>Videos - browse and play media contents</li>
+                    <li>GSConnect - connect smartphone and desktop</li>
+                </ul>
+            </dd>
+        </dl>
+
+        <dl class="row">
+            <dt class="col-sm-3">KDE - highly customizable</dt>
+            <dd class="col-sm-9">
+                A powerful and customizable approach to desktop usage, with all the components well integrated:
+                <ul>
+                    <li>Dolphin - complete and versatile file-manager</li>
+                    <li>KCM Settings module - set preferences for many aspects</li>
+                    <li>KDE Connect - connect smartphone and desktop</li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+
+</div>

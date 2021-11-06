@@ -1,0 +1,18 @@
+{
+    "index": {
+        "title": "Massi :: GitHub corner",
+        "currentNav": "home"
+    },
+    "fedora-remix": {
+        "title": "Massi :: Fedora Remix",
+        "currentNav": "fedora"
+    },
+    "centos-remix": {
+        "title": "Massi :: CentOS Remix",
+        "currentNav": "centos"
+    },
+    "about-me": {
+        "title": "Massi :: About me",
+        "currentNav": "about"
+    }
+}

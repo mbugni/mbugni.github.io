@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Massi :: Fedora Remix</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item ">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="fedora-remix.html">Fedora Remix</a>
+</li>
+<li class="nav-item ">
+<a class="nav-link" href="centos-remix.html">CentOS Remix</a>
+</li>
+</ul>
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link " href="about-me.html">About me</a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<main role="main">
+<div class="container mt-3">
+<div>
+<h2>Fedora Remix</h2>
+<div>
+<hr class="my-4" />
+</div>
+<h4>Purpose</h4>
+<p>
+This project is a <a href="https://fedoraproject.org/wiki/Remix" target="_blank">Fedora Remix</a> and aims
+to offer a complete system for multipurpose usage with localization support.
+You can build a live image and try the software, and then install it in your PC if you want.
+</p>
+Other goals of this remix are:
+<ul>
+<li>common extra-repos</li>
+<li>multimedia apps</li>
+<li>office automation support (printers and scanners)</li>
+<li>and more...</li>
+</ul>
+<div class="alert alert-info" role="alert">
+<h5 class="alert-heading">Why Fedora?</h5>
+<p>
+Fedora is a feature-rich operating system which offers a complete suite of sofware for many purposes.
+It is flexible enough to get a custom version by using the installer features
+(<a href="https://en.wikipedia.org/wiki/Anaconda_(installer)" target="_blank">see here for more details</a>).
+The build process can be described through Kickstart files and can be modified to get new variants.
+</p>
+</div>
+</div>
+<div>
+<hr class="my-4" />
+</div>
+<div>
+<h4>Functional layers</h4>
+<p>
+The remix is based on layers, following a matrioska approach. Each layer is built on top of another, using
+the <a href="https://pykickstart.readthedocs.io/en/latest/kickstart-docs.html#include" target="_blank">&percnt;include</a>
+command in kickstart files. Current layers (ordered by level) are:
+<table class="table table-striped table-bordered">
+<thead class="thead">
+<tr>
+<th scope="col">Layer</th>
+<th scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">base</th>
+<td>Common system settings (like fonts and language) and basic drivers/libraries</td>
+</tr>
+<tr>
+<th scope="row">desktop</th>
+<td>Desktop environment (like KDE or GNOME) with multimedia support and basic tools (like editor and file manager)</td>
+</tr>
+<tr>
+<th scope="row">workstation</th>
+<td>Workstation with office suite and support for printers/scanners</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p>
+Localization is treated as an addon which can be added to each layer.
+</p>
+</div>
+<div>
+<hr class="my-4" />
+</div>
+<div>
+<h4>Editions</h4>
+<p>
+One of the main goals of the project is to get a working system for most people, without further effort.
+A system for common users and common situations like home and office.
+Linux offers different environments, with different focus like simplicity or flexibility.
+Users are different and have different technical skills (from basic to advanced).
+So different editions are supported, to fit common scenarios: they can vary during time.
+The following are examples:
+</p>
+<dl class="row">
+<dt class="col-sm-3">GNOME - simple and elegant</dt>
+<dd class="col-sm-9">
+The default choice of Fedora Linux, designed to be easy to use:
+<ul>
+<li>Software - tool for installing apps and updates</li>
+<li>Videos - browse and play media contents</li>
+<li>GSConnect - connect smartphone and desktop</li>
+</ul>
+</dd>
+</dl>
+<dl class="row">
+<dt class="col-sm-3">KDE - highly customizable</dt>
+<dd class="col-sm-9">
+A powerful and customizable approach to desktop usage, with all the components well integrated:
+<ul>
+<li>Dolphin - complete and versatile file-manager</li>
+<li>KCM Settings module - set preferences for many aspects</li>
+<li>KDE Connect - connect smartphone and desktop</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+</main>
+<hr/>
+<footer class="text-muted">
+<div class="container">
+<p class="float-right"><a href="#">Back to top</a></p>
+<p>Made with <a href="https://harpjs.com/" target="_blank">Harp</a> and <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></p>
+</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
