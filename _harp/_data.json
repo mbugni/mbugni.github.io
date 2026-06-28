@@ -1,10 +1,37 @@
 {
     "index": {
-        "title": "Massi :: Home",
-        "currentNav": "home"
+        "title": "Massi :: Projects",
+        "pageName": "projects",
+        "flathubApps": [
+            {
+                "name": "Doom Runner",
+                "image": "https://imgproxy.flathub.org/insecure/dpr:2/f:avif/rs:fill-down/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9pby9naXRodWIvWW91ZGEwMDguRG9vbVJ1bm5lci84YWQ5MzM0NzkxOWUxZmE5YWU3ODI4YzA3YjhlNWY4Yy9zY3JlZW5zaG90cy9pbWFnZS0xX29yaWcucG5n",
+                "link": "https://flathub.org/it/apps/io.github.jotd666.doom-runner"
+            },
+            {
+                "name": "RBDoom3BFG OpenGL",
+                "image": "https://imgproxy.flathub.org/insecure/dpr:2/f:avif/rs:fill-down/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9pby9naXRodWIvUm9iZXJ0QmVja2ViYW5zLlJCRG9vbTNCRkctR0wvMTIyOTdjMjBkYzc1YmYzZmM4YmZlNjFjMmUxZjg3OTIvc2NyZWVuc2hvdHMvaW1hZ2UtMV9vcmlnLnBuZw",
+                "link": "https://flathub.org/it/apps/io.github.RobertBeckebans.RBDoom3BFG-GL"
+            },
+            {
+                "name": "Total Chaos",
+                "image": "https://imgproxy.flathub.org/insecure/dpr:2/f:avif/rs:fill-down/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9jb20vbW9kZGIvVG90YWxDaGFvcy9jYTZlMWZkNTUxYzI4YzlmZmE0YzQ4NGQ1NDk5MzA2ZS9zY3JlZW5zaG90cy9pbWFnZS0xX29yaWcucG5n",
+                "link": "https://flathub.org/it/apps/com.moddb.TotalChaos"
+            },
+            {
+                "name": "Total Chaos Retro",
+                "image": "https://imgproxy.flathub.org/insecure/dpr:2/f:avif/rs:fill-down/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9jb20vbW9kZGIvVG90YWxDaGFvc1JldHJvL2I3MzMxODNlZWE4YWMyZDJkMGViNWUzMWFhZDZmYWU1L3NjcmVlbnNob3RzL2ltYWdlLTFfb3JpZy5wbmc",
+                "link": "https://flathub.org/it/apps/com.moddb.TotalChaosRetro"
+            },
+            {
+                "name": "Gods Deluxe",
+                "image": "https://imgproxy.flathub.org/insecure/dpr:2/f:avif/rs:fill-down/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9pby9naXRodWIvam90ZDY2Ni5nb2RzLWRlbHV4ZS8xMzcwZTRkNzBmNTMzYmMzNzdjMDgyNDZhMjAyNjhmYi9zY3JlZW5zaG90cy9pbWFnZS0xX29yaWcucG5n",
+                "link": "https://flathub.org/it/apps/io.github.jotd666.gods-deluxe"
+            }
+        ]
     },
     "about-me": {
         "title": "Massi :: About Me",
-        "currentNav": "about"
+        "pageName": "about"
     }
 }
